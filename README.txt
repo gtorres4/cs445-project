@@ -5,6 +5,11 @@ Run following commands to install Node.js
  - sudo apt-get update
  - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash - ; sudo apt-get install -y nodejs
 
+If the file is cloned from git repository, run following command to install all dependencies (this may take a while):
+- npm install
+
+If the file is downloaded and opened from what is submitted on Blackboard, all dependencies are already in project.
+
 To run the server, run the following command from the command line within the root directory of project:
 
 node index.js
