@@ -1,0 +1,22 @@
+{
+  "name": "yay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-init": "./node_modules/jasmine/bin/jasmine.js init",
+    "test": "./node_modules/jasmine/bin/jasmine.js",
+    "coverage": "./node_modules/istanbul/lib/cli.js cover tests.js",
+    "code-report": "./node_modules/plato/lib/cli.js -r -d report classes"
+  },
+  "author": "Gabe",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.8.0",
+    "jasmine-console-reporter": "^2.0.1",
+    "plato": "^1.7.0"
+  }
+}
